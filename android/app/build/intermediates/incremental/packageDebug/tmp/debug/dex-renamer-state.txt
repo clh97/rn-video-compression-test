@@ -1,4 +1,4 @@
-#Thu Apr 18 17:06:18 BRT 2019
-base.0=/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/dex/debug/mergeDexDebug/out
+#Thu Apr 18 18:24:08 BRT 2019
+base.0=/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

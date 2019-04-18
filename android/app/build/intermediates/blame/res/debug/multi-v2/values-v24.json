@@ -4,7 +4,7 @@
             "outputFile": "/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/michel/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/53ec9564e372e36eae37d7d7704ff2ad/res/values-v24/values-v24.xml",
+                    "source": "/home/michel/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/bf6b35ae15226392b746e0e65395013b/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

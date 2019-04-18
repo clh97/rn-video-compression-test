@@ -108,6 +108,12 @@ android {
             abiFilters "armeabi-v7a", "x86"
         }
     }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
     splits {
         abi {
             reset()
@@ -138,6 +144,8 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-video')
+    implementation project(':react-native-fs')
     implementation project(':react-native-camera')
     implementation project(':react-native-gesture-handler')
     implementation fileTree(dir: "libs", include: ["*.jar"])
