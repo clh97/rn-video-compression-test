@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3",
+    "react": "16.5.0",
+    "react-native": "0.59.0",
+    "react-native-camera": "^2.6.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-navigation": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "schedule": "^0.4.0",
+    "scheduler": "^0.14.0"
+  },
+  "private": true
+}

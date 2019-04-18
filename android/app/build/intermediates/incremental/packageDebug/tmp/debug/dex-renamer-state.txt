@@ -1,0 +1,4 @@
+#Thu Apr 18 17:06:18 BRT 2019
+base.0=/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
