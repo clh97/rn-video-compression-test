@@ -1,4 +1,10 @@
-#Thu Apr 18 18:24:08 BRT 2019
-base.0=/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Apr 22 00:16:40 BRT 2019
+path.2=classes3.dex
+path.1=classes2.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.1=/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/transforms/dexMerger/debug/0
+base.0=/home/michel/Documents/Projects/rn-camera-test/android/app/build/intermediates/transforms/dexMerger/debug/0

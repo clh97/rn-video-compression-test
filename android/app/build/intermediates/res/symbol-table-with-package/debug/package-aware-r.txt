@@ -1132,6 +1132,7 @@ string image_description
 string link_description
 string search_description
 string search_menu_title
+string shipped_ffmpeg_version
 string status_bar_notification_info_overflow
 string unrecognized_media_format
 style AlertDialog_AppCompat

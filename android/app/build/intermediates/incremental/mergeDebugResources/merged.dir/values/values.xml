@@ -414,6 +414,7 @@
     <string name="link_description" translatable="false">Link</string>
     <string name="search_description" translatable="false">Search Field</string>
     <string name="search_menu_title">Search</string>
+    <string name="shipped_ffmpeg_version">n2.4.2</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="unrecognized_media_format">Unrecognized media format</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

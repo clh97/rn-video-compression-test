@@ -1017,7 +1017,7 @@ public final class R {
         public static final int link_description = 0x7f0b007a;
         public static final int search_description = 0x7f0b007b;
         public static final int search_menu_title = 0x7f0b007c;
-        public static final int status_bar_notification_info_overflow = 0x7f0b007d;
+        public static final int status_bar_notification_info_overflow = 0x7f0b007e;
     }
     public static final class style {
         private style() {}
