@@ -8,9 +8,11 @@
     "@babel/runtime": "^7.4.3",
     "react": "16.5.0",
     "react-native": "0.59.0",
+    "react-native-background-task": "^0.2.1",
     "react-native-camera": "^2.6.0",
     "react-native-fs": "^2.13.3",
     "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
     "react-native-responsive-screen": "^1.2.2",
     "react-native-video": "^4.4.1",
     "react-navigation": "^3.8.1"

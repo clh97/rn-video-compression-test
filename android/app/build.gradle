@@ -145,6 +145,8 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-background-task')
+    implementation project(':react-native-image-picker')
     compile 'com.github.tcking:giraffecompressor:0.1.4'
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
     implementation 'io.reactivex.rxjava2:rxjava:2.x.x'

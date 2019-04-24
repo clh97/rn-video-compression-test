@@ -3,6 +3,8 @@ package com.rn_camera_test;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.jamesisaac.rnbackgroundtask.BackgroundTaskPackage;
+import com.imagepicker.ImagePickerPackage;
 
 import com.brentvatne.react.ReactVideoPackage;
 import com.rnfs.RNFSPackage;
@@ -32,11 +34,13 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+          new ImagePickerPackage(),
+          new BackgroundTaskPackage(),
+          new CompressionPackage(),
           new ReactVideoPackage(),
           new RNFSPackage(),
           new RNCameraPackage(),
-          new RNGestureHandlerPackage(),
-          new CompressionPackage()
+          new RNGestureHandlerPackage()
       );
     }
 
@@ -55,5 +59,6 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
+    BackgroundTaskPackage.useContext(this);
   }
 }

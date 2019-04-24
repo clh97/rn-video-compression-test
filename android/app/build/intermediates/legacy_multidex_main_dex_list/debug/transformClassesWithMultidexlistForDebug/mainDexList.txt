@@ -323,6 +323,8 @@ com/google/android/gms/common/util/VisibleForTesting.class
 com/google/android/gms/common/zzc.class
 com/google/android/gms/common/zzm.class
 com/google/android/gms/flags/FlagSource.class
+com/imagepicker/ImagePickerPackage.class
+com/jamesisaac/rnbackgroundtask/BackgroundTaskPackage.class
 com/rn_camera_test/BuildConfig.class
 com/rn_camera_test/CompressionPackage.class
 com/rn_camera_test/MainApplication$1.class

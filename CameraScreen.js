@@ -24,6 +24,7 @@ export default class CameraScreen extends Component {
     let result = await this.camera.recordAsync({
       quality: RNCamera.Constants.VideoQuality['720p'],
       videoBitrate: 5,
+      quality: 0.5,
       // orientation: 'landscapeLeft',
       codec: Platform.OS === 'ios' ? RNCamera.Constants.VideoCodec['H264'] : null,
       // path: 'file:///storage/emulated/0/Pictures/'
@@ -33,9 +34,6 @@ export default class CameraScreen extends Component {
       // maxDuration: 5,
       // quality: RNCamera.Constants.VideoQuality['288p'],
     });
-
-    console.log(result)
-
   }
 
   pauseRecording = () => {
